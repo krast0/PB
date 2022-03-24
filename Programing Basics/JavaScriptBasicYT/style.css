@@ -1,0 +1,49 @@
+*
+{
+    margin:auto;
+    padding: 0;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font: size 16px;
+    font-weight:lighter;
+}
+.container{
+    width:100%;
+    margin:auto;
+    background-color: rgb(86, 205, 50);
+    color:beige;
+    border:5px rgb(41, 128, 0) solid;
+    height: 82vh;
+}
+.mushrooms{
+    background-color: rgb(138, 205, 50);
+    color:beige;
+    border:5px rgb(126, 128, 0) solid;
+    
+    
+    
+}
+.mushroom{
+    float:left;
+    width: 14%;
+    padding: 1.8px;
+    clip-path: circle()
+    
+
+}
+.separator{
+    display:flex;
+    align-items: center;
+  }
+  
+.separator .line{
+    height: 3px;
+    flex: 1;
+    background-color: #000;
+  }
+  
+.separator h2{
+    padding: 0 2rem;
+  }
+
